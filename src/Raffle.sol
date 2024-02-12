@@ -31,7 +31,7 @@ import {VRFConsumerBaseV2} from "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2
 /// @notice This contract is for creating a sample raffle
 /// @dev Implements Chainlink VRFv2
 
-contract Riffle is VRFConsumerBaseV2 {
+contract Raffle is VRFConsumerBaseV2 {
     error Raffle__NotEnoughEthSent();
     error Raffle__TransferFailed();
     error Raffle__RaffleNotOpen();
